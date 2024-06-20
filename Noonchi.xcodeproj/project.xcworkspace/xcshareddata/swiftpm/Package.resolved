@@ -1,0 +1,24 @@
+{
+  "originHash" : "1789e1beb599aad40833bd9fd9c1cbfaf8757861422b8d1bc556787b0b9ac8e8",
+  "pins" : [
+    {
+      "identity" : "grdb.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/groue/GRDB.swift",
+      "state" : {
+        "revision" : "5ee47c3c2765bdfde0f44c2ea9a263f6aa252d63",
+        "version" : "4.14.0"
+      }
+    },
+    {
+      "identity" : "ios-eye-tracking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kyle-fox/ios-eye-tracking",
+      "state" : {
+        "revision" : "cba4fff6db11acb248e45ec2498e8285303e236c",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
