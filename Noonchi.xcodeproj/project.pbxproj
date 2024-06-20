@@ -14,6 +14,12 @@
 		8D3818EE2C23E05600CD0250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3818ED2C23E05600CD0250 /* Assets.xcassets */; };
 		8D3818F12C23E05600CD0250 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8D3818F02C23E05600CD0250 /* Base */; };
 		8D3818FA2C23E09A00CD0250 /* EyeTracking in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3818F92C23E09A00CD0250 /* EyeTracking */; };
+		8DD9A75D2C247515008E898F /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9A75C2C247515008E898F /* 1.mp4 */; };
+		8DD9A75F2C247520008E898F /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9A75E2C247520008E898F /* 2.mp4 */; };
+		8DD9A7632C247580008E898F /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9A7622C247580008E898F /* 3.mp4 */; };
+		8DD9A7652C2475B4008E898F /* 4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9A7642C2475B4008E898F /* 4.mp4 */; };
+		8DD9A7672C2475BE008E898F /* 5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9A7662C2475BE008E898F /* 5.mp4 */; };
+		8DD9A76B2C2475EF008E898F /* 6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9A76A2C2475EF008E898F /* 6.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,12 @@
 		8D3818ED2C23E05600CD0250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D3818F02C23E05600CD0250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D3818F22C23E05600CD0250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD9A75C2C247515008E898F /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		8DD9A75E2C247520008E898F /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		8DD9A7622C247580008E898F /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
+		8DD9A7642C2475B4008E898F /* 4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.mp4; sourceTree = "<group>"; };
+		8DD9A7662C2475BE008E898F /* 5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.mp4; sourceTree = "<group>"; };
+		8DD9A76A2C2475EF008E898F /* 6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +77,22 @@
 				8D3818ED2C23E05600CD0250 /* Assets.xcassets */,
 				8D3818EF2C23E05600CD0250 /* LaunchScreen.storyboard */,
 				8D3818F22C23E05600CD0250 /* Info.plist */,
+				8DD9A7432C240BB0008E898F /* Videos */,
 			);
 			path = Noonchi;
+			sourceTree = "<group>";
+		};
+		8DD9A7432C240BB0008E898F /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				8DD9A75C2C247515008E898F /* 1.mp4 */,
+				8DD9A75E2C247520008E898F /* 2.mp4 */,
+				8DD9A7622C247580008E898F /* 3.mp4 */,
+				8DD9A7642C2475B4008E898F /* 4.mp4 */,
+				8DD9A7662C2475BE008E898F /* 5.mp4 */,
+				8DD9A76A2C2475EF008E898F /* 6.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +159,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD9A75F2C247520008E898F /* 2.mp4 in Resources */,
+				8DD9A7672C2475BE008E898F /* 5.mp4 in Resources */,
 				8D3818EE2C23E05600CD0250 /* Assets.xcassets in Resources */,
+				8DD9A7652C2475B4008E898F /* 4.mp4 in Resources */,
+				8DD9A76B2C2475EF008E898F /* 6.mp4 in Resources */,
+				8DD9A75D2C247515008E898F /* 1.mp4 in Resources */,
+				8DD9A7632C247580008E898F /* 3.mp4 in Resources */,
 				8D3818F12C23E05600CD0250 /* Base in Resources */,
 				8D3818EC2C23E05500CD0250 /* Base in Resources */,
 			);
@@ -303,6 +335,8 @@
 				DEVELOPMENT_TEAM = 888VRTGCXU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Noonchi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "눈치";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,6 +369,8 @@
 				DEVELOPMENT_TEAM = 888VRTGCXU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Noonchi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "눈치";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
